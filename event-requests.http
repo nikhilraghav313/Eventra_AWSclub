@@ -1,0 +1,10 @@
+### Create an event
+POST http://localhost:8080/api/events
+Content-Type: application/json
+
+{
+  "title": "Campus Hackathon",
+  "description": "A 24-hour coding event",
+  "location": "Main Auditorium",
+  "capacity": 100
+}
